@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2? family-Nunito:wght@400;500;600;700;800;900&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.navigation {
+    position: fixed;
+    height: 70px;
+    right: 0;
+    top: 0;
+    margin-top: -10px;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    }
+    .navigation h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    top: 0;
+    margin: 15px;
+    font-family: Arial;
+    color: #1100ff;
+    background-image: -webkit-linear-gradient( Odeg, #4d49ff 0%, #466e85 46%, #ff0055 86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-text-fill-color: transparent;
+    }
+    ul {
+        position: relative; 
+        height: 20px;
+        left: 810px;
+        display: flex;
+        flex-direction: row;
+        }
+        li {
+        display: inline-block;
+        margin-left: 5px;
+        width: 90px;
+        height: 40px;
+        padding-top: 25px;
+        font-weight: bold;
+        list-style: none;
+        text-align: center;
+        color:black;
+        text-transform: uppercase;
+    }
+            .count{
+                text-decoration: none;
+                font-family: sans-serif;
+                color: black;
+                font-size: 15px;
+                letter-spacing: 2px;
+                padding: 0 10px;
+                position: relative;
+                margin-top: -20px;
+            }
+            .count:after{
+                content: "";
+                position: absolute;
+                background-color: #25029C;
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: -10px;
+                transition: 0.3s;
+            }
+            .count:hover::after{
+                width: 100%;
+            }
+            nav{
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                position: absolute;
+                right: 120px;
+            }
+.container {
+display: flex;
+justify-content: center;
+gap: 400px;
+margin-right: 450px;
+}
+.parent-link {
+font-size: 1rem;
+}
+.parent-link, .icon {
+display: flex;
+align-items: center; justify-content: center;
+}
+.logo {
+height: 42px;
+}
+
+.social-links {
+    padding: 0 2.5rem;
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    }
+    .sm-icon {
+    padding: 0 1rem;
+    margin: 0;
+    color: white;
+    }
+    nav {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    }
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-image: url(./gory_ozero_vershiny_119133_3840x2400.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        }
+        .form {
+        display: flex;
+        justify-content: center;
+        height: 700px;
+        padding-top: 3rem;
+
+        }
+        .sub-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25vw;
+        height: 70vh;
+        border-radius: 12px;
+        box-shadow: rgba(58, 58, 93, 0,25) 0px 13px 27px 5px,
+        rgba(0, 6, 8, 8.3) 8px 8px 16px 8px;
+        padding: 30px;
+        opacity: 95%;
+        border: 4px white solid;
+        }
+        h2 {
+        margin: 1.5rem 8 2rem 8;
+        text-align: center;
+        }
+        label {
+            padding-left: 16px;
+            color: white;
+            }
+            input {
+            display: flex;
+            border-radius: 50px;
+            border-style: none;
+            outline: none;
+            margin-top: 8px;
+            padding: 12px 24px;
+            width: 250px;
+            opacity: 95%;
+            }
+            button {
+            padding: 12px 48px;
+            border-radius: 50px;
+            color: white;
+            margin-top: 1rem;
+            cursor: pointer;
+            outline: none;
+            border-width: 0;
+            background-color: #1A1B27;
+            font-weight: 600;
+            width: 100%;
+            }
+            .bottom-form {
+                display: flex;
+                justify-content: center;
+                margin-top: 3rem;
+                }
+                .signup {
+                padding-left: 5px;
+                text-decoration: none;
+                cursor: pointer;
+                color: #21D4FD;
+                }
+                .form{
+                    height: 700px;
+                    padding: 30px;
+                }
+                .back{
+                    width: 20px;
+                }
+   .top{
+    display: flex;
+    gap: 50px;
+   }      
+   .icon{
+    display: block;
+   }          
+   .no-account{
+    color: whitesmoke;
+   }
+   .icon{
+    display: block;
+   }          
+   .no-account{
+    color: whitesmoke;
+   }
+   .icon{
+    width: 50px;
+    border-radius: 50%;
+}
+.ftxt{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding: 30px;
+}
+.fin{
+    border: none;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 98.9vw;
+    height: 500px;
+    margin-top: -380px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.conect{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.txxt{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+header{
+    z-index: 10;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+}
+.iconca{
+    width: 50px;
+}
+ul{
+    margin-top: -50px;
+}
+
+@media screen and (max-width:700px){
+    body{
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .sub-form{
+        width: 430px;
+        height: 460px;
+        margin-top: -70px;
+    }
+    .txxt{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width: 450px;
+    }
+    .ftxt{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    ul{
+        position: absolute;
+        left: 90px;
+    }
+}

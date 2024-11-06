@@ -1,0 +1,232 @@
+.deffi{
+    gap: 50px;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.redeff{
+    gap: 50px;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.txt_deff, .txt_deffq{
+    background-color: black
+    ;
+    color: white;
+    opacity: 30px;
+    padding: 30px;
+    border-radius: 30px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    p{
+        flex-wrap: wrap;
+    }
+}
+.box{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.deff{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px 0px 25px 0px;
+}
+.def{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px 0px 25px 0px;
+}
+body{
+    background-color: #f0f0f5;   
+}
+.navigation {
+    position: fixed;
+    height: 70px;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    }
+    .navigation h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    font-family: Arial;
+    color: #1100ff;
+    background-image: -webkit-linear-gradient( Odeg, #4d49ff 0%, #466e85 46%, #ff0055 86%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-emphasis-color: transparent;
+    -webkit-text-fill-color: transparent;
+    }
+    ul {
+        position: relative; 
+        height: 70px;
+        left: 810px;
+        display: flex;
+        flex-direction: row;
+        }
+        li {
+        display: inline-block;
+        margin-left: 5px;
+        width: 90px;
+        height: 40px;
+        padding-top: 25px;
+        font-weight: bold;
+        list-style: none;
+        text-align: center;
+        color:black;
+        text-transform: uppercase;
+    }
+            .count{
+                text-decoration: none;
+                font-family: sans-serif;
+                color: black;
+                font-size: 15px;
+                letter-spacing: 2px;
+                padding: 0 10px;
+                position: relative;
+            }
+            .count:after{
+                content: "";
+                position: absolute;
+                background-color: #25029C;
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: -10px;
+                transition: 0.3s;
+            }
+            .count:hover::after{
+                width: 100%;
+            }
+            nav{
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                position: absolute;
+                right: 120px;
+            }
+.menu{
+    margin-top: 20px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.icon{
+    display: block;
+   }          
+   .no-account{
+    color: whitesmoke;
+   }
+   .icon{
+    display: block;
+   }          
+   .no-account{
+    color: whitesmoke;
+   }
+   .icon{
+    width: 50px;
+    border-radius: 50%;
+}
+.ftxt{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding: 30px;
+}
+.fin{
+    border: none;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 98.9vw;
+    height: 500px;
+    margin-top: -200px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.conect{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.iconca{
+    width: 50px;
+}
+ul{
+    margin-top: -50px;
+}
+.txxt{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+header{
+    z-index: 10;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+}
+.txt_footer{
+    display: flex;
+    flex-direction: column;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:700px){
+    body{
+        width: 450px;
+        
+    }    
+    .txt_deff, .txt_deffq{
+        width: 300px;
+    }
+    .deff{
+        margin-left: 300px;
+    }
+    .redeff:first-of-type{
+        margin-left: 0px;
+        
+    }
+    .txt_deffq{
+        margin-right: -300px;
+    }
+    .box{
+        margin-left: 150px;
+    }
+    footer{
+        width: 1544px;
+        height: 300px;
+    }
+}
